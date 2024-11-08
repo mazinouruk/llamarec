@@ -1,0 +1,160 @@
+{
+    "os": "Linux-5.4.0-182-generic-x86_64-with-glibc2.31",
+    "python": "3.10.10",
+    "heartbeatAt": "2024-11-07T17:57:00.081403",
+    "startedAt": "2024-11-07T17:56:59.559356",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--llm_retrieved_path",
+        "./experiments/lru/ml-100k/"
+    ],
+    "state": "running",
+    "program": "/home/minjae/llamarec/LlamaRec/train_ranker.py",
+    "codePath": "train_ranker.py",
+    "git": {
+        "remote": "https://github.com/Yueeeeeeee/LlamaRec.git",
+        "commit": "48b288b23197b57d564955753c69ac2baa4c1dad"
+    },
+    "email": null,
+    "root": "/home/minjae/llamarec/LlamaRec",
+    "host": "lambda-quad",
+    "username": "minjae",
+    "executable": "/home/minjae/anaconda3/envs/llamarec/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1349.38445,
+        "min": 1200.0,
+        "max": 4300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1961.395,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.005,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1449.419,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.237,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.075,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1505.04,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1201.592,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.024,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.016,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.487,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.015,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.355,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1571.383,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.043,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2194.05,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1501.43,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.157,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.333,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.674,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.959,
+            "min": 1200.0,
+            "max": 4300.0
+        }
+    ],
+    "disk": {
+        "total": 1832.2072448730469,
+        "used": 1702.6161346435547
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 62.47331619262695
+    }
+}
